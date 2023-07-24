@@ -118,8 +118,8 @@ GameObject:
   - component: {fileID: 9080365206506395562}
   - component: {fileID: 6322354107119550992}
   - component: {fileID: 1243707133873983960}
-  - component: {fileID: 3952449532957534087}
   - component: {fileID: -6369359014565815267}
+  - component: {fileID: 7242740728265406015}
   m_Layer: 0
   m_Name: Kiwi
   m_TagString: Player
@@ -141,7 +141,7 @@ Transform:
   m_Children:
   - {fileID: 5265432706893991685}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &9080365206506395562
 SpriteRenderer:
@@ -261,18 +261,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.14936972, y: 0.15255143}
   m_EdgeRadius: 0
---- !u!114 &3952449532957534087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6828163529070395697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ecd4b5f0cec81944b5844c4a424c946, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &-6369359014565815267
 AudioSource:
   m_ObjectHideFlags: 0
@@ -283,8 +271,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 110ecc2538cc5994890198a3cb08ade2, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -369,3 +357,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7242740728265406015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6828163529070395697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ecd4b5f0cec81944b5844c4a424c946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
