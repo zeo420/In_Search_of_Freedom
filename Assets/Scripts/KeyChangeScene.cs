@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class FruitCounter : MonoBehaviour
+public class KeyChangeScene : MonoBehaviour
 {
+    public int sceneTag;
     void Update()
     {
         if (gameObject.transform.childCount == 0)
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene(sceneTag);
         }
     }
 }
