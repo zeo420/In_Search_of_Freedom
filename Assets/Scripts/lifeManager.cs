@@ -48,7 +48,7 @@ public class lifeManager : MonoBehaviour
             gameObject.transform.GetChild(3).gameObject.SetActive(true);
             gameObject.transform.GetChild(4).gameObject.SetActive(true);
             gameObject.transform.GetChild(5).gameObject.SetActive(true);
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(4);
         }
     }
 }
