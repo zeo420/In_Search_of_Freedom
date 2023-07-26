@@ -5,12 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class FruitCounter : MonoBehaviour
 {
-    public int sceneTag;
     void Update()
     {
         if (gameObject.transform.childCount == 0)
         {
-            SceneManager.LoadScene(sceneTag);
+            Destroy(gameObject);
         }
     }
 }

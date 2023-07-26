@@ -99,5 +99,15 @@ public class PlayerMove : MonoBehaviour
             DamagePlayer.damageSignal = false;
             DamagePlayer.Lesslife();
         }
+
+        //  RecoverLifePlayer.lifeTime += Time.deltaTime;
+        // if (RecoverLifePlayer.lifeTime > 0.5f)
+        // {
+        //     sR.enabled = true;
+        //     gameObject.transform.GetChild(0).gameObject.SetActive(false);
+        //     appearingActive = false;
+        //     RecoverLifePlayer.lifeSignal = true;
+        //     RecoverLifePlayer.Recoverlife();
+        // }
     }
 }

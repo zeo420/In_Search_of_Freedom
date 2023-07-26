@@ -38,8 +38,7 @@ public class PanelManager : MonoBehaviour
         {
             comAudio = false;
         }
-        panel = 1;
-        LoadController();
+    
     }
     void Update()
     {
