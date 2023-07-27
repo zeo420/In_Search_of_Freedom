@@ -11,6 +11,16 @@ public class AudioManager : MonoBehaviour
     public static bool sound = true;
     public Sprite soundOn;
     public Sprite soundOff; 
+    public void SoundOn()
+    {
+        gameObject.GetComponent<Image>().sprite = soundOn;
+        sound = true;
+    }
+    public void SoundOff() 
+    {
+        gameObject.GetComponent<Image>().sprite = soundOff;
+        sound = false;
+    }
     public void ChangeSound()
     {
         if (sound)
