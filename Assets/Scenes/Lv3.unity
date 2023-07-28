@@ -4501,6 +4501,10 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: fc2b537fc8dfa8d48b41dbac6f502645, type: 3}
+    - target: {fileID: 8302520845725831185, guid: 1626213a556636045a5b04772e03b7d2, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3381401823222549423, guid: 1626213a556636045a5b04772e03b7d2, type: 3}
     - {fileID: 4654424946632394191, guid: 1626213a556636045a5b04772e03b7d2, type: 3}
@@ -6903,7 +6907,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.80598277, y: -0.83322996, z: -10.301486}
+  m_LocalPosition: {x: 0.8524357, y: -0.83326995, z: -10.301486}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9310,6 +9314,10 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: fc2b537fc8dfa8d48b41dbac6f502645, type: 3}
+    - target: {fileID: 7062206334175325160, guid: 534676197519cb14485ffab23bc085a0, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7206128685726623777, guid: 534676197519cb14485ffab23bc085a0, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -10780,6 +10788,14 @@ PrefabInstance:
     - target: {fileID: 3550831500864123370, guid: bcdf0dcdee6e35146a0862eb2e4f6c38, type: 3}
       propertyPath: m_Volume
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3550831500864123370, guid: bcdf0dcdee6e35146a0862eb2e4f6c38, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fc2b537fc8dfa8d48b41dbac6f502645, type: 3}
+    - target: {fileID: 3550831500864123370, guid: bcdf0dcdee6e35146a0862eb2e4f6c38, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3923095343790896098, guid: bcdf0dcdee6e35146a0862eb2e4f6c38, type: 3}
       propertyPath: m_Controller
@@ -33790,6 +33806,10 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: fc2b537fc8dfa8d48b41dbac6f502645, type: 3}
+    - target: {fileID: 7307063735858872278, guid: c314bd5cd3b535f4691370d84102f379, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7350379812148573887, guid: c314bd5cd3b535f4691370d84102f379, type: 3}
       propertyPath: m_Name
       value: Ninja Frog
